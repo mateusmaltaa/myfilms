@@ -1,0 +1,133 @@
+.img-film {
+  position: fixed;
+  color: black;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  top: 20%;
+  display: inline-block;
+}
+
+.img-film img {
+  width: 100%;
+}
+
+.img-back {
+  margin-top: 10px;
+  height: 100vh;
+}
+
+.img-back--vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.row-fail-films {
+  position: fixed;
+  color: black;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  top: 50%;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.informations-film {
+  position: fixed;
+  color: white;
+  bottom: 20%;
+  left: 30%;
+  transition: all ease 0.5s;
+}
+
+.small-informations {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.title-film,
+.small-informations,
+.overview-film,
+.small-informations-elenco {
+  transition: all ease 0.3s;
+}
+
+.title-film:hover,
+.small-informations:hover,
+.overview-film:hover,
+.small-informations-elenco:hover {
+  color: #87cefa;
+}
+
+.small-informations-elenco {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.elenco-film {
+  overflow-y: hidden;
+  height: 50px;
+  position: fixed;
+  color: white;
+  bottom: 10%;
+  left: 30%;
+}
+
+.buttons-details {
+  bottom: 1%;
+  padding-left: 50px;
+  position: fixed;
+}
+
+.buttonVerD button,
+.buttonVistoD button {
+  background-color: #87cefa;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: black;
+  transition: all ease 0.3s;
+}
+
+.buttonVistoD,
+.buttonVerD {
+  display: inline-block;
+}
+
+.buttonVerD button:hover,
+.buttonVistoD button:hover {
+  color: red;
+}
+
+.buttonVerDCheck button,
+.buttonVistoDCheck button {
+  background-color: #87cefa;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: red;
+}
+
+.buttonVistoDCheck,
+.buttonVerDCheck {
+  display: inline-block;
+}
+
+.buttonVerDCheck button:hover,
+.buttonVistoDCheck button:hover {
+  color: black;
+}

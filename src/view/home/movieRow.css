@@ -1,0 +1,116 @@
+.movieRow {
+  margin-bottom: 30px;
+}
+
+.movieRow h3 {
+  margin: 0px 0px 0px 30px;
+}
+
+.movieRow--listarea {
+  overflow-x: hidden;
+  padding-left: 30px;
+}
+
+.movieRow--list {
+  transition: all ease 0.5s;
+}
+
+.movieRow--item {
+  display: inline-block;
+  width: 180px;
+}
+
+.movieRow--item img {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.3s;
+}
+
+.movieRow--item img:hover {
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.buttonAdicionarVer {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.buttonAdicionarVerCheck {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  color: red;
+}
+
+.buttonAdicionarVisto {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.buttonAdicionarVistoCheck {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  color: red;
+}
+
+.buttonAdicionarVer:hover,
+.buttonAdicionarVisto:hover {
+  color: red;
+}
+
+.movieRow--left,
+.movieRow--right {
+  position: absolute;
+  width: 40px;
+  height: 270px;
+  background-color: #87cefa;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.movieRow--left {
+  left: 0;
+  transition: all ease 0.5s;
+}
+
+.movieRow--right {
+  right: 0;
+  transition: all ease 0.5s;
+}
+
+.movieRow:hover .movieRow--left,
+.movieRow:hover .movieRow--right {
+  opacity: 1;
+}
+
+.movieRow--item:hover .buttonAdicionarVer,
+.movieRow--item:hover .buttonAdicionarVisto,
+.movieRow--item:hover .buttonAdicionarVerCheck,
+.movieRow--item:hover .buttonAdicionarVistoCheck {
+  opacity: 1;
+}

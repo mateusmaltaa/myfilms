@@ -1,0 +1,86 @@
+.navbar {
+  position: fixed;
+  background-color: #87cefa;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  transition: all ease 0.5s;
+}
+
+.navOpacity {
+  position: fixed;
+  background-color: #87cefa;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+}
+
+.navbar-brand {
+  color: black;
+  transition: all ease 0.3s;
+  transform: scale(1);
+  font-size: 200%;
+}
+
+.nav-item a,
+.nav-item--email a,
+.nav-item--sair a,
+.nav-item--quemsomos a {
+  color: black;
+  transition: all ease 0.3s;
+  transform: scale(1);
+}
+
+.navbar-brand:hover,
+.nav-item a:hover,
+.nav-item--email a:hover,
+.nav-item--sair a:hover,
+.back:hover,
+.nav-item--quemsomos a:hover {
+  transform: scale(1.1);
+}
+
+.nav-item a:hover,
+.nav-item--email a:hover,
+.nav-item--sair a:hover,
+.back:hover,
+.nav-item--quemsomos a:hover {
+  color: #ff6a6a;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-item-email-sair {
+  position: fixed;
+  right: 0;
+}
+
+.nav-item--email,
+.nav-item--sair,
+.nav-item--quemsomos {
+  display: inline-block;
+}
+
+.back {
+  cursor: pointer;
+  color: black;
+  transition: all ease 0.3s;
+  transform: scale(1);
+}
+
+.rota--quemsomos {
+  position: fixed;
+  right: 0;
+}

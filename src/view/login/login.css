@@ -1,0 +1,60 @@
+.login-content {
+  width: 100%;
+  margin-top: 150px;
+  height: 100%;
+}
+
+.form-signin {
+  width: 40%;
+}
+
+.login-inputs-email,
+.login-inputs-password {
+  transform: scale(1);
+  transition: all ease 0.3s;
+}
+
+.login-inputs-email:hover,
+.login-inputs-password:hover {
+  transform: scale(1.1);
+}
+
+.btn-login {
+  background-color: tomato;
+  color: lightyellow;
+  transform: scale(1);
+  transition: all ease 0.3s;
+}
+
+.btn-login:hover {
+  background-color: salmon;
+  color: lightyellow;
+  transform: scale(1.1);
+}
+
+.login-login-content {
+  color: tomato;
+}
+
+.options-login a {
+  text-decoration: none;
+  color: salmon;
+  transition: 0.3s;
+}
+
+.options-login a:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+.login-symbols {
+  color: salmon;
+}
+
+.msgErro {
+  color: tomato;
+}
+
+.msgCerto {
+  color: green;
+}

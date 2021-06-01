@@ -1,0 +1,10 @@
+.featured {
+  height: 100vh;
+  margin-top: 15px;
+}
+
+.featured--vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #f0ffff 10%, transparent 90%);
+}

@@ -1,0 +1,105 @@
+.areaSearch--all {
+  color: black;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  margin-top: -450px;
+}
+
+.buttonSearch {
+  background-color: #87cefa;
+  transition: all ease 0.3s;
+  transform: scale(0.8);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.buttonSearch:hover {
+  transform: scale(1);
+}
+
+.searchMovie--item {
+  width: 180px;
+  display: inline-block;
+}
+
+.searchMovie--item img {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.3s;
+}
+
+.searchMovie--item img:hover {
+  transform: scale(1);
+}
+
+.areaSearch {
+  transition: all ease 0.3s;
+  transform: scale(1);
+}
+
+.areaSearch:hover {
+  transform: scale(1.05);
+}
+
+.textsSearch {
+  transition: all ease 0.3s;
+}
+
+.textsSearch:hover {
+  color: #87cefa;
+}
+
+.buttonAdicionarVerS {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.buttonAdicionarVerCheckS {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  color: red;
+}
+
+.buttonAdicionarVistoS {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.buttonAdicionarVistoCheckS {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  color: red;
+}
+
+.buttonAdicionarVerS:hover,
+.buttonAdicionarVistoS:hover {
+  color: red;
+}
+
+.searchMovie--item:hover .buttonAdicionarVerS,
+.searchMovie--item:hover .buttonAdicionarVistoS,
+.searchMovie--item:hover .buttonAdicionarVerCheckS,
+.searchMovie--item:hover .buttonAdicionarVistoCheckS {
+  opacity: 1;
+}

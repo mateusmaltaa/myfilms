@@ -1,0 +1,42 @@
+.listVer--listarea {
+  display: inline-block;
+}
+
+.listVer--item {
+  width: 180px;
+}
+
+.listVer--item img {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.3s;
+}
+
+.listVer--item img:hover {
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.buttonAddVer {
+  text-align: center;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.RemoverVisto {
+  text-align: center;
+  opacity: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.listVer--item:hover .RemoverVisto,
+.listVer--item:hover .buttonAddVer {
+  opacity: 1;
+}
+
+.buttonAddVer:hover,
+.RemoverVisto:hover {
+  color: red;
+}

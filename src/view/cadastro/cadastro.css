@@ -1,0 +1,45 @@
+.form-cadastro {
+  width: 100%;
+  height: 100%;
+  margin-top: 150px;
+}
+
+.form-login {
+  max-width: 40%;
+}
+
+.btn-cadastro {
+  background-color: tomato;
+  color: lightyellow;
+  transform: scale(1);
+  transition: all ease 0.3s;
+}
+
+.btn-cadastro:hover {
+  background-color: salmon;
+  color: lightyellow;
+  transform: scale(1.1);
+}
+
+.msgErro {
+  color: tomato;
+}
+
+.msgCerto {
+  color: green;
+}
+
+.cadastro-inputs-email,
+.cadastro-inputs-password {
+  transform: scale(1);
+  transition: all ease 0.3s;
+}
+
+.cadastro-inputs-email:hover,
+.cadastro-inputs-password:hover {
+  transform: scale(1.1);
+}
+
+.cadastro-cadastro-content {
+  color: tomato;
+}
